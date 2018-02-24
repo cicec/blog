@@ -4,7 +4,7 @@ date: 2018-01-2 19:33:00
 tags: 前端相关
 ---
 
-![cover.jpg](http://upload-images.jianshu.io/upload_images/8017344-36cf42b752298e3d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![cover.jpg](http://p4nfph69y.bkt.clouddn.com/mur6s.jpg)
 
 ## 前戏
 
@@ -30,7 +30,7 @@ tags: 前端相关
 }
 ```
 
-![flexbox居中显示.png](http://upload-images.jianshu.io/upload_images/8017344-dc278f3cd54115ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![flexbox居中显示.png](http://p4nfph69y.bkt.clouddn.com/gf42d.png)
 
 在这里，我们创建了一个容器和其内部的方块，并将容器display属性设置为flex。可以看到，对容器内的方块，我们只是添加了 **margin: auto;** 这一行代码，便实现了其相对容器水平与垂直上的完全居中。也就是说，flexbox首先便解决了css一直以来在垂直居中上的痛点。
 
@@ -38,7 +38,7 @@ tags: 前端相关
 
 先丢一张MDN上面关于弹性盒布局的介绍图
 
-![](http://upload-images.jianshu.io/upload_images/8017344-6b31409ba46fba6c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://p4nfph69y.bkt.clouddn.com/pwn51.png)
 
 没看懂的话没有关系，这里是[MDN的官方文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)，认真看。
 以上
@@ -74,7 +74,7 @@ tags: 前端相关
 
 刷新页面，6个box便已经均匀地分布在这一行上了。
 
-![justify-content.png](http://upload-images.jianshu.io/upload_images/8017344-1bc273ab03899b49.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![justify-content.png](http://p4nfph69y.bkt.clouddn.com/jpdv9.png)
 
 在介绍justify-content属性之前，我们先了解一下主轴的概念：
 
@@ -108,7 +108,7 @@ tags: 前端相关
 
 为了便于观察，我们为box添加一点外边距。再次刷新，可以看到多出来的方块排列到了下一行，而且当我们调整浏览器窗口大小时，方块们会自动排列整齐。
 
-![flex-wrap.png](http://upload-images.jianshu.io/upload_images/8017344-bcb1124c8bf08f45.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![flex-wrap.png](http://p4nfph69y.bkt.clouddn.com/fjdw3.png)
 
 在这里我们需要了解关于侧轴的概念：
 
@@ -152,7 +152,7 @@ tags: 前端相关
 }
 ```
 
-![align-items.png](http://upload-images.jianshu.io/upload_images/8017344-c10dd05eb5328464.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![align-items.png](http://p4nfph69y.bkt.clouddn.com/agq1z.png)
 
 这样，就控制了每一行的元素都以该行的中间位置对齐。而align-items属性控制的便是行内项目的对齐方式。
 
@@ -198,7 +198,7 @@ align-self：为单独的伸缩项目定义在行内的对齐方式（对应alig
 
 刷新页面，我们发现四个方块之间没有了间距，并且似乎都宽了不少。
 
-![flex-grow.png](http://upload-images.jianshu.io/upload_images/8017344-7e3280de4ca03981.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![flex-grow.png](http://p4nfph69y.bkt.clouddn.com/agqxb.png)
 
 不难看出，flex-grow属性定义的便是弹性项目的扩展能力。但需要注意的是，flex-grow与其他方块的值是成比例的。例如上述示例中，四个方块的属性值分别为2、1、4、3，总和为10，则方块1扩展能力就是2/10，它能占用的剩余空间就是1/5的大小。而如果只有一个方块定义了flex-grow属性，因为其他方块值均为默认值0（不扩展），那么无论这个方块的flex-grow属性为多少，它都将得到全部的剩余空间。
 

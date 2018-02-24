@@ -4,7 +4,7 @@ date: 2018-01-25 19:02:00
 tags: 前端相关
 ---
 
-![](http://upload-images.jianshu.io/upload_images/8017344-719e5b5ad978fb29.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://p4nfph69y.bkt.clouddn.com/1byw3.jpg)
 
 ## 前戏
 
@@ -45,7 +45,7 @@ tags: 前端相关
 }
 ```
 
-![grid-template-row(column).png](http://upload-images.jianshu.io/upload_images/8017344-8ef8e48d2a020606.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![grid-template-row(column).png](http://p4nfph69y.bkt.clouddn.com/e2dg6.png)
 
 这里先创建了1个container和5个放在容器中的item，并且为了便于观察，为container添加了一个边框。而container的gird-template-columns和grid-template-rows就是为容器划分网格的属性。
 
@@ -68,7 +68,7 @@ tags: 前端相关
 }
 ```
 
-![grid-gap.png](http://upload-images.jianshu.io/upload_images/8017344-3464694e7e5319fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![grid-gap.png](http://p4nfph69y.bkt.clouddn.com/g1bfc.png)
 
 grid-gap属性负责控制网格线的宽度，可以直接理解为行（列）间距。可以分别控制行间距和列间距。
 
@@ -98,7 +98,7 @@ grid-gap属性负责控制网格线的宽度，可以直接理解为行（列）
 }
 ```
 
-![grid-row(column).png](http://upload-images.jianshu.io/upload_images/8017344-2f4d16accb8e79f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![grid-row(column).png](http://p4nfph69y.bkt.clouddn.com/f4qv9.png)
 
 grid-column和grid-row属性分别指定网格项在列和行上占用的网格区域。例如 **grid-column: 2 / 4;** 指定该网格项在列方向上占用第2条网格线到第4条网格线之间的区域，注意这两个数值指定的是**网格线**而不是单元格（除此之外还可以通过第二个值指定该网格项跨越的单元格数量，默认为1）。
 
@@ -128,7 +128,7 @@ grid-column和grid-row属性分别指定网格项在列和行上占用的网格�
 
 到了这里，就可以马上动手用grid实现一个简单的圣杯布局。
 
-![圣杯布局1.png](http://upload-images.jianshu.io/upload_images/8017344-b32992672810cd61.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![圣杯布局1.png](http://p4nfph69y.bkt.clouddn.com/4cnye.png)
 
 很简单，也没什么好说的，主要是熟悉属性用法。
 
@@ -209,7 +209,7 @@ grid-column和grid-row属性分别指定网格项在列和行上占用的网格�
 }
 ```
 
-![grid-auto-columns.png](http://upload-images.jianshu.io/upload_images/8017344-f3a8841e761069d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![grid-auto-columns.png](http://p4nfph69y.bkt.clouddn.com/99xaa.png)
 
 这里第5个方块被显式定位到第5和第6条网格线之间，明显超出了容器的范围，于是在第4和第6条网格线之间便存在了2条隐式轨道，而grid-auto-columns就是用来定义这条轨道的宽度。若没有定义该属性，则轨道宽度为0（默认）。
 

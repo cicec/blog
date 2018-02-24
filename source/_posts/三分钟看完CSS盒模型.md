@@ -8,7 +8,7 @@ tags: 前端相关
 
 很简单的概念，没有理解难点。惯例开场丢图
 
-![CSS盒模型.png](http://upload-images.jianshu.io/upload_images/8017344-4236ecc81ca52a15.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![CSS盒模型.png](http://p4nfph69y.bkt.clouddn.com/dju49.png)
 
 ## 什么是盒模型
 

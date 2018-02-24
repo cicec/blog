@@ -6,7 +6,7 @@ tags: 前端相关
 
 ## 前戏
 
-![](http://upload-images.jianshu.io/upload_images/8017344-5602a5b6d4f26458.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://p4nfph69y.bkt.clouddn.com/nwq2m.png)
 
 - 写的比较短了，三分钟看完应该是没问题（嗯。。）。
 - 当然最好再花半小时思考理解一下。
