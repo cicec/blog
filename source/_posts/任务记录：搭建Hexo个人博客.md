@@ -1,5 +1,5 @@
 ---
-title: 用Github和Hexo搭建个人博客
+title: 任务记录：搭建Hexo个人博客
 date: 2018-02-01 20:24:00
 tags: 前端相关
 ---
