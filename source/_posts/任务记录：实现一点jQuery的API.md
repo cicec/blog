@@ -6,7 +6,7 @@ tags: 前端相关
 
 ## 任务要求：
 
-1. 选择器功能：传入选择器或DOM对象，返回包装后的jQuery对象（伪数组）。
+1. 选择器功能：传入选择器或DOM对象，返回包装后的jQuery对象（伪数组）。
 2. .addClass()方法：用于为节点添加类。
 3. .setText()方法：用于设置节点内的文本。
 
@@ -57,7 +57,7 @@ return $nodes
 
 ### .addClass() 和 .setText()
 
-接下来需要为这个对象添加两个方法让它看起来有点用处。首先是.addClass()方法，这里直接在被返回的$nodes对象上面添加：
+接下来需要为这个对象添加两个方法让它看起来有点用处。首先是.addClass()方法，这里直接在被返回的$nodes对象上面添加：
 
 ``` js
 $nodes.addClass = (className) => {
@@ -67,7 +67,7 @@ $nodes.addClass = (className) => {
 }
 ```
 
-这里为了保证$nodes中所有的节点都能被添加class，需要对$nodes遍历一下，再分别为每个节点添加class。.setText()也是同理：
+这里为了保证$nodes中所有的节点都能被添加class，需要对$nodes遍历一下，再分别为每个节点添加class。.setText()也是同理：
 
 ``` js
 $nodes.setText = (text) => {
@@ -79,7 +79,7 @@ $nodes.setText = (text) => {
 
 ## 用$代替jQuery
 
-至此这个简单的jQuery的功能就已经完成了。最后还需要将jQuery函数绑定到全局变量以方便调用。然而jQuery这个名字还是稍微长了点，这时可以再将jQuery再赋值到全局的$变量上，这样看起来就方便多了。
+至此这个简单的jQuery的功能就已经完成了。最后还需要将jQuery函数绑定到全局变量以方便调用。然而jQuery这个名字还是稍微长了点，这时可以再将jQuery再赋值到全局的$变量上，这样看起来就方便多了。
 
 ``` js
 window.jQuery = jQuery
